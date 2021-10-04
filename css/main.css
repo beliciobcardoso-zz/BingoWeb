@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: silver;
+}
+
+header {
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+}
+
+main {
+    background-color: white;
+    width: 50rem;
+    margin: 2rem auto;
+    padding: 20px;
+}
+
+#numerosBingo {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+#numerosBingo p {
+    width: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .2rem;
+    margin-bottom: .2rem;
+    background-color: wheat;
+    font-size: 32px;
+}
